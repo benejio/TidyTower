@@ -4,9 +4,9 @@ Robotics project for CPTS 483 (Robitics) - Stacking Jenga blocks
 
 // CHANGE ME, as necessary (GPT Generated) //
 
-JengaBot: Autonomous Jenga Stack Reconstruction
+TidyTower: Autonomous Jenga Stack Reconstruction
 
-JengaBot is a robotic system designed to autonomously stack Jenga blocks after a game is over. Using computer vision and precision manipulation, the robot identifies scattered blocks, plans an optimal stacking sequence, and carefully reconstructs the tower. This project explores motion planning, object detection, and robotic grasping to achieve efficient and reliable block stacking.
+TidyTower is a robotic system designed to autonomously stack Jenga blocks after a game is over. Using computer vision and precision manipulation, the robot identifies scattered blocks, plans an optimal stacking sequence, and carefully reconstructs the tower. This project explores motion planning, object detection, and robotic grasping to achieve efficient and reliable block stacking.
 
 Features:
 
