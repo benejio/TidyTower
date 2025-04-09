@@ -1,11 +1,11 @@
 # pi_server.py
 
 import socket
-from pymycobot.mycobot import MyCobot
+from pymycobot import MyCobot
 import time
 
-PORT_NAME = "/dev/ttyUSB0"  # Adjust if needed
-mc = MyCobot(PORT_NAME, 115200)
+PORT_NAME = "/dev/ttyAMA0" 
+mc = MyCobot(PORT_NAME, 1000000)
 
 
 HOST = ''  # Listen on all interfaces
