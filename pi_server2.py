@@ -19,6 +19,22 @@ def handle_command(command):
             print(f"Moving to angles: {angles}")
         except ValueError:
             print("Invalid ANGLES parameters.")
+    elif parts[0] == "GRIPPER":
+        if parts[1] == "OPEN":
+            mc.set_gripper_state(0, 70)
+            print("Gripper opening.")
+        elif parts[1] == "CLOSE":
+            mc.set_gripper_state(1, 70)
+            print("Gripper closing.")
+        elif parts[1] == "VALUE" and len(parts) == 3:
+            try:
+                value = int(parts[2])
+                mc.set_gripper_value(value, 70)
+                print(f"Gripper set to value: {value}")
+            except ValueError:
+                print("Invalid GRIPPER VALUE parameter.")
+        else:
+            print("Invalid GRIPPER command.")
     else:
         print("Unknown command.")
 
