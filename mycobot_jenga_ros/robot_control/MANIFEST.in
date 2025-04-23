@@ -1,0 +1,4 @@
+include package.xml
+recursive-include launch *.py
+recursive-include resource *
+
