@@ -15,7 +15,7 @@ class VisionNode(Node):
         super().__init__('vision_node')
 
         # Load YOLOv8 model (trained on Jenga blocks)
-        self.model = ultralytics.YOLO('/home/jesse/Documents/CPTS483-Robotics/Project/Yolo-Block_Detection/runs/detect/train/weights/best.pt')
+        self.model = ultralytics.YOLO('../yolov8_jenga_blocks.pt')
 
         self.bridge = CvBridge()
 
