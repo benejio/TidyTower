@@ -17,7 +17,7 @@ class VisionNode(Node):
 
 
         # Load YOLOv8 model (trained on Jenga blocks)
-        self.model = ultralytics.YOLO('/home/jesse/ros2_ws/src/mycobot_jenga_ros/vision_node/yolov8_jenga_blocks.pt')
+        self.model = ultralytics.YOLO('../yolov8_jenga_blocks.pt')
         
         #/home/jesse/Documents/CPTS483-Robotics/Project/Yolo-Block_Detection/runs/detect/train/weights/best.pt')
         self.get_logger().info(f"Loaded YOLO model with classes: {self.model.names}")
