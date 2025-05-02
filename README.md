@@ -1,5 +1,5 @@
 # TidyTower
-Robotics project for CPTS 483 (Robitics) - Stacking Jenga blocks
+Robotics project for CPTS 483 (Robotics) - Stacking Jenga blocks
 
 TidyTower: Autonomous Jenga Stack Reconstruction
 
